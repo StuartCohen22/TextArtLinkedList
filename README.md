@@ -8,7 +8,8 @@ This program is an interactive ASCII art editor that allows users to create, edi
 - **Save and Load**: Enables users to save and load their ASCII art to/from files.
 - **Undo and Redo**: Provides the ability to undo and redo recent actions on the art.
 - **Clipping and Animation**: Supports a clipboard feature to copy parts of the art and an animation mode.
+- **History Tracking**: The linked list maintains a sequence of canvas states, recording each change made to the ASCII art.
+- **Undo and Redo Functionality**: Enables users to move backward and forward in the canvas's editing history, allowing for reverting to previous states or redoing undone changes.
+- **Efficient State Management**: Offers a structured approach for inserting, removing, and navigating through different versions of the canvas without duplicating the entire canvas data.
 
 The program's functionalities are controlled through a command-line interface, where users input specific commands to trigger actions on the displayed text-based art canvas. It utilizes various functions such as displaying the canvas, navigating the cursor within the canvas, and handling input for editing and modifying the ASCII art.
-
-The code appears to involve functions for handling user input, managing the canvas data structure, and file I/O operations to save and load the art from files. Overall, it's an interactive tool for creating and manipulating text-based graphical art in the form of ASCII characters.
